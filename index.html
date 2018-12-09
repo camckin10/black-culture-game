@@ -1,0 +1,156 @@
+<!--Second draft of Black Culture Game-->
+<!--Black people game-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" src=""/>
+	<title>Do It For The Culture</title>
+</head>
+<body>
+	<header>
+		<div class="content">
+				<h1><span>Do It</span> <span>For The</span> <span>Culture</span></h1>
+				<h3>The game for Black people, created by Black people.</h3>
+		</div>
+	</header>
+	<main id="main" role="main">
+	
+		<div class="content">
+	
+				<section id="quiz" class="hidden">
+						<div id="stats" class="clearfix">
+								<div id="stats-score">SCORE: <span class="score">0</span></div>
+								<div id="stats-progress">QUESTION: <span class="progress">0/0</span></div>
+						</div>
+						<div id="question">
+								<div id="icon"><i class="fa fa-bolt"></i></div>
+								<p id="text">Who is Felicia and What movie is she from?</p>
+								<form>
+										<div><input type="radio" name="ans" value="1"> <span id="option-1">Hollywood Shuffle</span> </div>
+										<div><input type="radio" name="ans" value="2"> <span id="option-2">Scary Movie</span> </div>
+										<div><input type="radio" name="ans" value="3"> <span id="option-3">Think Like A Man</span> </div>
+										<div><input type="radio" name="ans" value="4"> <span id="option-4">Best Man</span> </div>
+										<div><input type="radio" name="ans" value="5"> <span id="option-5">Friday</span> </div>
+								</form>
+								<button id="answer-btn">You Ready To Submit?</button>
+						</div>
+				</section>
+	
+				<section id="start" class="clearfix">
+						<div id="instruct">
+								<h2>What To Do:</h2>
+								<p><strong>STEP 1</strong>: To the best of your ability, answer the 10 questions.</p>
+								<p><strong>STEP 2</strong>: Answer all the questions correctly, and your grandma and 'em will be real proud. Miss some questions, no big deal, your grandma will still be proud. Get them all wrong...well...</p>
+						</div>
+						<div id="btn-area">
+								<button id="start-btn"> NEW GAME </button>
+						</div>
+				</section>
+	
+	
+				<section id="correct" class="pop-up hidden">
+						<h2>Correct!<br>+1</h2>
+						<p class="answer-exp">[x]</p>
+						<p>Congratulations, you now have <span class="score">0</span> Black People point(s).</p>
+						<br>
+						<p><button class="cont-btn">Continue</button></p>
+				</section>
+	
+				<section id="wrong" class="pop-up hidden">
+						<h2>Wrong!</h2>
+						<p class="answer-exp">[x]</p>
+						<p>Oh, I am sorry no points for you.<br>... you know, because you were so wrong.<br>You now have <span class="score">0</span> point(s).</p>
+						<br>
+						<p><button class="cont-btn">Continue</button></p>
+				</section>
+	
+				<!--discuss ranks?-->
+				<!--all correct: Ay! You passed! You now can brag to your friends about the immense knowledge of Black culture. AND, you get all the points...don't spend them all in the wrong place...-->
+				<!--all incorrect: Damn...too bad you didn't make it. Try again?-->
+				<section id="final" class="pop-up hidden">
+						<h2>Final Score: <span class="score">0</span>/10</h2>
+						<p>You achieved a rank of ...<br><span class="rank">[rank]</span></p>
+						<p><span class="rank-msg">[msg]</span></p>
+						<br>
+						<p><button id="start-over">Try Again</button></p>
+				</section>
+	
+		</div>
+	
+	</main>
+	<footer>
+		<div class="content">
+				<div class="disclaim">This game is for humorous purposes only. It does not serve as a Google. Winning this game does not mean that non People of Color will possess all the knowledge of Black Culture. That being said, please use Google if you would like to actually
+						learn more about Black American culture. Relax! Its all for fun.
+				</div>
+				<div id="copyright">Copyright <i class="fa fa-copyright"></i> 2018, Chelsey McKinney</div>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	</body>
+	
+	
+	
+	<!--First Draft of Black Culture Game-->
+	<!-- <body>
+	<!---will include pop up window  before entering actual site-->
+	<!--must be a set of questions (5), that test a users blackness.
+	questions:
+	1.img of sam l jackson
+	2.pic of cookie tin--does this tin have cookies in it?
+	a)yes b)probabky not c)looks like it might have sewing stuff in it
+	3.what falls under the juice family?
+	a)anything from minute maid b)all flavored drinks inckuding kool aid? c)the basics--orange,cranberry....etc.
+	
+	
+	news inspired site?--Black onion?
+	1)Impala being discontinued;Men 30 + up distraught 
+	2)Mother(pic of mom from greenleaf), that everyone loves to hate is...
+	3)Anime marathon brings together all types of blackness
+	etc etc etc 
+	<section>
+	<!--nav--->
+	<!--<header>
+	<h1>Black Stuff</h1>
+	<nav>
+	<ul>
+	<li>History</li>
+	<li>trivia</li>
+	<li>memory</li>
+	</ul>
+	</nav>
+	</header>
+	
+	<section class="history-part">
+	<h3>History of Black stuff</h3>
+	<p>This will eventually hold the history of Black stuff.</p>
+	</section>
+	
+	<section class="game-one">
+	
+	<!--col-lg-6-->
+	<!--<p>float right...instructions for trivia game....or maybe make it a crystal collecting game? </p>
+	<p>float left...game</p>
+	
+	</section>
+	
+	<section class="game-two">
+	
+	<!--col-lg-6-->
+	<!--<p>float left...instructions for trivia game....or maybe make it a crystal collecting game? </p>
+	<p>float right...game</p>
+	
+	</section>
+	
+	<!--pull from twitter api--->
+	<!--<p>this section will have a twitter thread.</p>
+	
+	</section> -->
+	
+</body>
+</html>
+
