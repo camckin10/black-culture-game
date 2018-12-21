@@ -6,7 +6,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" src=""/>
+	<!--bootstrap links-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--external css stylesheet-->
+	<link rel="stylesheet" type="text/css"  src="style.css"/>
 	<title>Do It For The Culture</title>
 </head>
 <body>
@@ -25,6 +28,7 @@
 								<div id="stats-score">SCORE: <span class="score">0</span></div>
 								<div id="stats-progress">QUESTION: <span class="progress">0/0</span></div>
 						</div>
+						<!--example question-->
 						<div id="question">
 								<div id="icon"><i class="fa fa-bolt"></i></div>
 								<p id="text">Who is Felicia and What movie is she from?</p>
@@ -50,22 +54,26 @@
 						</div>
 				</section>
 	
+							<section id="correct" class="pop-up hidden">
+									<h2>Correct!<br>+1</h2>
+									<p class="answer-exp">[x]</p>
+									<p>Congratulations, you now have <span class="score">0</span> Black People point(s).</p>
+									<br>
+									<p><button class="cont-btn">Continue</button></p>
+							</section>
+					
+							<section id="wrong" class="pop-up hidden">
+									<h2>Wrong!</h2>
+									<p class="answer-exp">[x]</p>
+									<p>Oh, I am sorry no points for you.<br>... you know, because you were so wrong.<br>You now have <span class="score">0</span> point(s).</p>
+									<br>
+									<p><button class="cont-btn">Continue</button></p>
+
+					
+			</section>
+
 	
-				<section id="correct" class="pop-up hidden">
-						<h2>Correct!<br>+1</h2>
-						<p class="answer-exp">[x]</p>
-						<p>Congratulations, you now have <span class="score">0</span> Black People point(s).</p>
-						<br>
-						<p><button class="cont-btn">Continue</button></p>
-				</section>
-	
-				<section id="wrong" class="pop-up hidden">
-						<h2>Wrong!</h2>
-						<p class="answer-exp">[x]</p>
-						<p>Oh, I am sorry no points for you.<br>... you know, because you were so wrong.<br>You now have <span class="score">0</span> point(s).</p>
-						<br>
-						<p><button class="cont-btn">Continue</button></p>
-				</section>
+			
 	
 				<!--discuss ranks?-->
 				<!--all correct: Ay! You passed! You now can brag to your friends about the immense knowledge of Black culture. AND, you get all the points...don't spend them all in the wrong place...-->
@@ -91,6 +99,10 @@
 	</footer>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/script.js"></script>
+	<!--bootstrap js/jquery links-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</body>
 	
 	

@@ -80,7 +80,7 @@ var cycleTestimonials = function(index,prev) {
 					}
 					cycleTestimonials(index,prev);
 			});
-	});
+   });
 };
 var newGame = function() {
 	num = 0;
