@@ -1,3 +1,20 @@
+//code to get rid of Goolge Chrome Ajax request error
+const readFile = (filePath) => {
+	return new Promise(function (resolve, reject) {
+			const xhr = new XMLHttpRequest()
+			xhr.onloadend = (event) => {
+					console.log("xhr.onloadend", event, xhr.status, xhr.statusText, xhr.readyState, xhr);
+					if (event.loaded && xhr.response) {
+							resolve(xhr.response);
+					} else {
+							reject("error");
+					}
+			}
+			xhr.open('GET', filePath);
+			xhr.send();
+	});
+} 
+
 $(document).ready(function() {
 	cycleTestimonials(1,0);
 	$('#start-btn').click(function() {   

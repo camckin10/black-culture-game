@@ -1,8 +1,12 @@
 body{
-	background:url('./images/black_culturecollage.jpg');
+	/*background-image:url("../images/blackculturecollage.jpg");*/
+	background-image:url("./styles/images/harriet.jpg");
 }
 
 h1{
 	color:#1A0554;
 }
+
+
+
 
