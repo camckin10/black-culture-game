@@ -1,0 +1,21 @@
+body{
+	/*background-image:url("../images/blackculturecollage.jpg");*/
+	background-image:url("./images/blackculturecollage.jpg");
+	font-family: 'Righteous', cursive;
+	margin: 0;
+  height: 100vh; /*stretch body to the whole page*/
+  display: flex; /*define a flex container*/
+  flex-direction: column; /*arrange items in column*/
+  justify-content: center; /*align vertically center*/
+}
+
+h1,h2,h3{
+	color:black;
+	text-align:center;
+	font-size: 370%;
+}
+
+/*.btn-primary{
+	height:107px;
+	width:181px;
+	/*padding: 6px 20px 6px 20px;*/
