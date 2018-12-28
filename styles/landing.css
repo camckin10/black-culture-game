@@ -2,17 +2,42 @@ body{
 	/*background-image:url("../images/blackculturecollage.jpg");*/
 	background-image:url("./images/blackculturecollage.jpg");
 	font-family: 'Righteous', cursive;
-	margin: 0;
+	text-align: center;
+
+	/* margin: 0;
   height: 100vh; /*stretch body to the whole page*/
-  display: flex; /*define a flex container*/
-  flex-direction: column; /*arrange items in column*/
-  justify-content: center; /*align vertically center*/
+  /*display: flex; /*define a flex container*/
+  /*flex-direction: column; /*arrange items in column*/
+  /*ustify-content: center; align vertically center */
 }
 
 h1,h2,h3{
+	color:#00003f;
+	font-size: 500%;
+}
+
+.strokeme {
 	color:black;
-	text-align:center;
-	font-size: 370%;
+	text-shadow:
+	-1px -1px 0 white,
+	1px -1px 0 white,
+	-1px 1px 0 white,
+	1px 1px 0 white;  
+}
+
+
+.wrapper {
+	text-align: center;
+}
+
+.button {
+	position: absolute;
+	top: 50%;
+	padding:20px;
+	width:200px;
+	border:2px solid #00003f;
+	font-size:48px;
+	font-weight:bold;
 }
 
 /*.btn-primary{

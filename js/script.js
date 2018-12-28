@@ -242,7 +242,7 @@ var quiz_questions = {
 					5: "Isabel Sanford"
 			},
 			"answer": 2,
-			"answer-exp": "In 1968 Eartha Kitt was invited to the White House for a luncheon hosted by Lady Bird Johnson. When the first lady asked Eartha her opinion about the Vietnam war, Eartha's comments upset Lady Bird Johnson so much that cried. President Johnson deemed her as 'enemy' to be investigated. "        
+			"answer-exp": "In 1968, Eartha Kitt was invited to the White House for a luncheon hosted by Lady Bird Johnson. When the first lady asked Eartha her opinion about the Vietnam war, Eartha's comments upset Lady Bird Johnson so much that she cried. President Johnson deemed her as an, 'enemy to be investigated.' "        
 	},
 	7: {
 		 //"icon": "clock-o", 
@@ -268,7 +268,7 @@ var quiz_questions = {
 					5: "Anita Baker"
 			},
 			"answer": 3,
-			"answer-exp": "Aretha Franklin was inducted into the Hall of Fame in 1987. Not only was she the first African American woman inducted, but she was the first woman. Period. "
+			"answer-exp": "Aretha Franklin was inducted into the Hall of Fame in 1987. Not only was she the first African American woman inducted, but she was the first woman. PERIODT. "
 	},
 	9: {
 			//"icon": "car",
