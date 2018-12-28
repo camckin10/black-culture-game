@@ -1,9 +1,11 @@
 body{
-	background-image:url("");
+	/*background-image:url("");*/
+	font-family: 'Fredoka One', cursive;
+
 }
 
 h1{
-	color:rgb(198, 190, 218);
+	color:rgb(19, 18, 21);
 }
 
 
